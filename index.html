@@ -265,8 +265,8 @@
 
     function updateData() {
       console.log("Update Data");
-      //$.getJSON("accelGenerator.php", addData);
-	  $.getJSON("test.txt", addData);
+      $.getJSON("accelGenerator.php", addData);
+      // $.getJSON("test.txt", addData);
       setTimeout(updateData,updateInterval);
     }
 
